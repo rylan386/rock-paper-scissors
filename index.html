@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
 </head>
@@ -29,7 +28,7 @@
             </div>
         </div> 
         <div class="results">
-            <h3></h3>
+            <h3 id="outcome">Best To 5 Wins</h3>
         </div>
         <div class ="buttons">
             <div class="human">
@@ -40,7 +39,7 @@
                     <button id="scissors">Scissors</button>
                 </div>
             </div>
-            <div class="computer">
+            <div class = "computer">
                 <h1>Computer</h1>
                 <div class="choice2">
                     <button id="rock2">Rock</button>
@@ -50,9 +49,11 @@
             </div>
         </div>
         <div class="footer">
+            <button id="reset">Play again?</button>
             <h6>Game made by <a href="https://github.com/rylan386"
             target="_blank">Rylan386</a></h6>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
