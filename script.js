@@ -61,17 +61,17 @@ function playRound(playerSelection, computerSelection) {
                 results.textContent = "You lost this round:(";
             }
    if (computerSelection === "rock") {
-    rock2.style.borderColor = "black";
+    rock2.style.borderColor = "yellow";
     paper2.style.borderColor = null;
     scissors2.style.borderColor = null;
    }
    else if (computerSelection === "paper") {
-    paper2.style.borderColor = "black";
+    paper2.style.borderColor = "yellow";
     rock2.style.borderColor = null;
     scissors2.style.borderColor = null;
 }
     else if (computerSelection === "scissors") {
-    scissors2.style.borderColor = "black";
+    scissors2.style.borderColor = "yellow";
     paper2.style.borderColor = null;
     rock2.style.borderColor = null;
 }
