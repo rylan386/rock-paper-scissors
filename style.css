@@ -146,11 +146,20 @@ button {
     font-size: 20px;
 }
 
-.footer button {
-    visibility: hidden;
+.div {
+    display: flex;
+    justify-content: center;
 }
 
-.footer button:hover {
+#reset {
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    font-size: 15px;
+}
+
+#reset:hover {
     border-color: yellow;
 }
 
@@ -205,7 +214,6 @@ a {
 
     .score {
         display: flex;
-        flex-direction: column;
         margin: 0;
     }
     .buttons {
@@ -237,6 +245,7 @@ a {
 
     #reset {
         margin: 0;
+        margin-top: 2em;
     }
 
     button {
@@ -244,8 +253,12 @@ a {
     }
 
     .footer {
-        margin: 0;
+        margin: auto;
+        margin-bottom: 1em;
         font-size: 10px;
-        margin-top: 1em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
     }
 }
